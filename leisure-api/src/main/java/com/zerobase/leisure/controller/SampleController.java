@@ -16,7 +16,7 @@ public class SampleController {
 	public WebResponseData<Object> sampleSuccessApi() {
 		return WebResponseData.ok(SAMPLE_SUCCESS_CODE.getDescription());
 	}
-
+	//테스트2
 	@GetMapping("/error")
 	public WebResponseData<Object> sampleErrorApi() {
 		return WebResponseData.error(SAMPLE_ERROR_CODE);
